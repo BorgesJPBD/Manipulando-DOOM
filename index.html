@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Point</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Car Point</div>
+    <nav class="menu">
+        <a href="#">Início</a>
+        <a href="#modelos">Modelos</a>
+        <a href="#suvs">SUVs de Luxo</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <section class="carrossel-section">
+        <div class="car-card">
+            <div class="car-image-container">
+                <img class="car-item active" src="audi.png" alt="Audi">
+                <img class="car-item" src="mercedes.png" alt="Mercedes">
+                <img class="car-item" src="porsche.png" alt="Porsche">
+            </div>
+            
+            <div class="car-info">
+                <h2 id="car-name">Audi</h2>
+                <p id="car-description">Luxo, tecnologia e desempenho.</p>
+            </div>
+
+            <div class="controls">
+                <button id="prevBtn">❮</button>
+                <button id="nextBtn">❯</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="modelos" class="lista-modelos">
+        <h2>Nossos Modelos</h2>
+        <div class="card-container">
+            <div class="modelo-card">
+                <img src="audi.png" alt="Audi">
+                <h3>Audi A3 Sedan</h3>
+                <div class="icones">
+                    <span>⚙️ 204 cv</span>
+                    <span>⛽ Gasolina</span>
+                    <span>🔧 Automático</span>
+                </div>
+            </div>
+            <div class="modelo-card">
+                <img src="mercedes.png" alt="Mercedes">
+                <h3>Mercedes-AMG GLC Coupé</h3>
+                <div class="icones">
+                    <span>⚙️ 421 cv</span>
+                    <span>⛽ Gasolina</span>
+                    <span>🔧 Automático</span>
+                </div>
+            </div>
+            <div class="modelo-card">
+                <img src="porsche.png" alt="Porsche">
+                <h3>Porsche</h3>
+                <div class="icones">
+                    <span>⚙️ 408 cv</span>
+                    <span>⚡ Elétrico</span>
+                    <span>🔧 Automático</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="suvs" class="lista-modelos">
+        <h2>SUVs de Luxo</h2>
+        <div class="card-container">
+            <div class="modelo-card">
+                <img src="defender land rover.jpg" alt="LandRover SUV">
+                <h3>LandRover</h3>
+                <div class="icones">
+                    <span>⚙️ 300cv</span>
+                    <span>⚡ Híbrido</span>
+                    <span>🔧 Automático</span>
+                </div>
+            </div>
+            <div class="modelo-card">
+                <img src="mercedes glb 200.jpg" alt="Mercedes SUV">
+                <h3>Mercedes GLB 200</h3>
+                <div class="icones">
+                    <span>⚙️ 350cv</span>
+                    <span>⛽ Diesel</span>
+                    <span>🔧 Automático</span>
+                </div>
+            </div>
+            <div class="modelo-card">
+                <img src="creta 2025.jpg" alt="Creta SUV">
+                <h3>Hyundai Creta</h3>
+                <div class="icones">
+                    <span>⚙️ 450cv</span>
+                    <span>⚡ Elétrico</span>
+                    <span>🔧 Automático</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<script src="javascript.js"></script>
+
+</body>
+</html>
