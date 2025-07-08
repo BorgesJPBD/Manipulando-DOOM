@@ -11,7 +11,7 @@ body {
     padding-top: 80px;
 }
 
-/* Menu Fixo */
+
 header {
     position: fixed;
     top: 0;
@@ -60,7 +60,7 @@ header {
     width: 100%;
 }
 
-/* Carrossel */
+
 .carrossel-section {
     display: flex;
     justify-content: center;
@@ -132,7 +132,7 @@ header {
     transform: scale(1.1);
 }
 
-/* Lista de Modelos */
+
 .lista-modelos {
     padding: 40px 20px;
     max-width: 1200px;
@@ -168,6 +168,9 @@ header {
     height: 150px;
     object-fit: contain;
     margin-bottom: 10px;
+
+    border-left: 4px solid #E50914;
+    padding-left: 8px;
 }
 
 .modelo-card h3 {
@@ -186,7 +189,7 @@ header {
     transform: scale(1.05);
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
     .menu a {
         margin: 0 10px;
