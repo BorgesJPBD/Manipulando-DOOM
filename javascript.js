@@ -34,4 +34,18 @@ document.addEventListener('DOMContentLoaded', function () {
         indice = (indice + 1) % imagens.length;
         mostrarImagem(indice);
     }, 4000);
+
+
+    document.getElementById("form-contato").addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        const mensagem = document.getElementById("mensagem").value;
+        const divResposta = document.getElementById("resposta");
+
+        
+        divResposta.textContent = "Mensagem recebida: " + mensagem;
+
+        
+        document.getElementById("mensagem").value = "";
+    });
 });

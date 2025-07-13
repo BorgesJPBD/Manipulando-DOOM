@@ -205,3 +205,41 @@ header {
         align-items: center;
     }
 }
+
+
+
+.contato-seguro {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+}
+
+#form-contato textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+}
+
+#form-contato button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #E50914;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#form-contato button:hover {
+    background-color: #ff1c1c;
+}
+
+#resposta {
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+}
